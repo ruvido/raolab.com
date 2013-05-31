@@ -1,0 +1,17 @@
+
+
+Protein dynamics I: a general introduction
+
+
+Cellular life is based on protein activity. The traditional structure-function
+paradigm, “to know function study structure” which goes back to Watson and
+Crick, have guided our interpretation of protein function for decades. It is
+only rather recently that the role of dynamics has been recognized, supporting
+the idea that structural analysis is not sufficient to fully understand protein
+function. It is very difficult to study protein dynamics experimentally at an
+atomic level of detail, although techniques such as single-molecule FRET, X-ray
+crystallography, and NMR supply useful, but limited, information. Consequently,
+molecular dynamics simulations are playing an increasing role in determining
+the mechanism, as a supplement to the experimental studies. A general
+discussion of the field is presented, with special emphasis on molecular
+dynamics simulations.

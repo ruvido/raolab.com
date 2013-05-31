@@ -1,0 +1,2 @@
+rsync -n -avz --delete . raolab.com:/var/www
+echo rsync -avz --delete . raolab.com:/var/www

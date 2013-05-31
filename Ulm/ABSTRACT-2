@@ -1,0 +1,16 @@
+
+
+Protein dynamics II: going beyond reaction coordinates
+
+
+Molecular dynamics simulations allow an atomistic understanding of protein
+conformational changes.  The classical picture postulates the existence of a
+suitable reaction coordinate to monitor the transition, disentangling the
+starting and ending state as well as the barrier between them. Notwithstanding,
+it is difficult to find such a coordinate because of the many degrees of
+freedom involved and the presence of thermal fluctuations. Recently, a new
+arsenal of tools that make use of complex networks has emerged to characterize
+these problems. Transition networks allow a high resolution mapping of
+the underlying free-energy landscape without invoking arbitrarily chosen
+reaction coordinates, paving the way for an unbiased, quantitative description
+of protein conformational changes.

@@ -1,0 +1,110 @@
+22. Beyond the binding site: the role of the b2-b3 loop and extra-domain structures in PDZ domains
+Mostarda, S; Gfeller, D; Rao, F†
+Plos Comp. Bio., 8, e1002429 (2012)
+citations: 2
+
+21. Thermodynamics and kinetics of large-time-step molecular dynamics
+Rao, F†; Spichty, M
+J. Comp. Chem., 33, 475-483 (2012)
+citations: 0
+
+20. Three-Dimensional Infrared Spectroscopy of Isotope-Substituted Liquid Water Reveals Heterogeneous Dynamics
+Garrett-Roe, S; Perakis, F; Rao, F; Hamm, P
+J. Phys. Chem. B, 115, 6976-6984 (2011)
+citations: 5
+
+19. Protein Inherent Structures by Different Minimization Strategies
+Rao, F
+J. Comp. Chem., 32, 1113-1116 (2011)
+citations: 1
+
+18. Wordom: A User-Friendly Program for the Analysis of Molecular Structures, Trajectories, and Free Energy Surfaces
+Seeber, M; Felline, A; Raimondi, F; Muff, S; Friedman, R; Rao, F; Caflisch, A; Fanelli, F
+J. Comp. Chem., 32, 1183-1194 (2011)
+citations: 5
+
+17. Structural Inhomogeneity of Water by Complex Network Analysis
+Rao, F†; Garrett-Roe, S; Hamm, P
+J. Phys. Chem. B, 114, 15598-15604 (2010)
+citations: 3
+
+16. Local Transition Gradients Indicating the Global Attributes of Protein Energy Landscapes
+Rao, F
+J. Phys. Chem. Lett., 1, 1580-1583 (2010)
+citations: 3
+
+15. Protein dynamics investigated by inherent structure analysis
+Rao, F†; Karplus, M
+Proc. Natl. Acad. Sci. USA, 107, 9152-9157 (2010)
+citations: 11
+
+14. Computational Screening of Rhodopsin Mutations Associated with Retinitis Pigmentosa
+Felline, A; Seeber, M; Rao, F; Fanelli, F
+J. Chem. Theor. Comp., 5, 2472-2485 (2009)
+citations: 3
+
+13. On the rich-club effect in dense and weighted networks
+Zlatic, V.; Bianconi, G.; Diaz-Guilera, A.; Garlaschelli, D.; Rao, F.; Caldarelli, G.
+E. Phys. J. B, 67, 271-275 (2009)
+citations: 7
+
+12. Taxonomy and clustering in collaborative systems: The case of the on-line encyclopedia Wikipedia
+Capocci, A.; Rao, F.; Caldarelli, G.
+Europhys. Lett., 81, 28006 (2008)
+citations: 7
+
+11. Wordom: a program for efficient analysis of molecular dynamics simulations
+Seeber, M; Cecchini, M; Rao, F; Settanni, G; Caflisch, A
+Bioinf., 23, 2625-2627 (2007)
+citations: 59
+
+10. Uncovering the topology of configuration space networks
+Gfeller, D; Morton de Lachapelle, D; De Los Rios, P; Caldarelli, G; Rao, F†
+Phys. Rev. E, 76, 026113 (2007)
+citations: 10
+
+9. Complex network analysis of free-energy landscapes
+Gfeller, D.; De Los Rios, P.; Caflisch, A.; Rao, F†
+Proc. Natl. Acad. Sci. USA, 104, 1817-1822 (2007)
+citations: 57
+
+8. Local modularity measure for network clusterizations
+Muff, S; Rao, F; Caflisch, A
+Phys. Rev. E, 72, 056107 (2005)
+citations: 33
+
+7. Estimation of protein folding probability from equilibrium simulations
+Rao, F; Settanni, G; Guarnera, E; Caflisch, A
+J. Chem. Phys., 122, 184901 (2005)
+citations: 20
+
+6. phi-Value analysis by molecular dynamics simulations of reversible folding
+Settanni, G; Rao, F; Caflisch, A
+Proc. Natl. Acad. Sci. USA, 102, 628-633 (2005)
+citations: 48
+
+5. Replica exchange molecular dynamics simulations of amyloid peptide aggregation
+Cecchini, M; Rao, F; Seeber, M; Caflisch, A
+J. Chem. Phys., 121, 10748-10756 (2004)
+citations: 93
+
+4. The protein folding network
+Rao, F; Caflisch, A
+J. Mol. Biol., 342, 299-306 (2004)
+citations: 154
+
+3. Frequency-domain study of alpha relaxation in the random orthogonal model
+Rao, F; Crisanti, A; Ritort, F
+Phil. Mag., 84, 1389-1395 (2004)
+citations: 0
+
+2. Replica exchange molecular dynamics simulations of reversible folding
+Rao, F; Caflisch, A
+J. Chem. Phys., 119, 4035-4042 (2003)
+citations: 61
+
+1. Frequency-domain study of relaxation in a spin glass model for the structural glass transition
+Rao, F; Crisanti, A; Ritort, F
+Europhys. Lett., 62, 869-875 (2003)
+citations: 4
+

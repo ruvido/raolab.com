@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Francesco Rao - Research Lab</title>
+<link href='http://fonts.googleapis.com/css?family=Terminal+Dosis+Light' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Cabin+Sketch:bold' rel='stylesheet' type='text/css'>
+<!link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+
+   
+<style type="text/css">
+<!--
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	background-color: #FFF;
+}
+
+
+ul, ol, dl { 
+	margin-top: 0;	 
+	padding-right: 15px;
+	padding-left: 45px; 
+}
+h1 {
+	margin-top: 0;	 
+	padding-right: 15px;
+	padding-left: 15px; 
+        color:white;
+        font-size: 8pt;
+}
+h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 
+	padding-right: 15px;
+	padding-left: 15px; 
+}
+a img { 
+	border: none;
+}
+
+txtlink{
+    color: blue;
+}
+
+a:link {
+	color: black;
+	text-decoration: none; 
+}
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+a:hover, a:active, a:focus { 
+	text-decoration: underline;
+}
+
+
+.container {
+	width: 960px;
+	background: #FFF;
+	margin: 0 auto; 
+}
+
+
+.content {
+	padding: 10px 0;
+	height: 350px;
+}
+
+
+.fltrt {  
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { 
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { 
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+-->
+@font-face {
+font-family: "LoveyaLikeASister";
+src: url(font/LoveYaLikeASister.ttf) format("truetype");
+}
+.loveyalikeasister { font-family: "LoveyaLikeASister", sans-serif; font-size:60px; color:#F00; }
+.terminaldosislight { font-family: 'Terminal Dosis Light', arial, serif; font-size:40px; }
+/*.vollkorn { font-family: 'Vollkorn', arial, serif; font-size:18px;}*/
+.text{ padding-top:30px;width:600px; height:auto; float:left; font-family:'EB Garamond';font-size:18px }
+.cabinsketch { font-family: 'Cabin Sketch', arial, serif; font-size:20px; }
+.publi{ font-family: 'EB Garamond', arial, serif; font-size:18px; padding-bottom:10px }
+</style></head>
+
+<body>
+    <h1>Francesco Rao Research Lab</h1>
+    <div style="width=:157px; height:40px; text-align:left; padding-top:20px"><a href="../index.html"><img src="../img/raolab.gif" alt="Francesco Rao Research Group" width="157" height="40" /></a></div>
+<div class="container">
+    <div class="clearfloat"></div>
+
+    <div style="width:960; margin:auto;">
+        <div class="terminaldosislight" style="padding-left:310px; padding-top:40px;width:600px; height:auto; float:left;">
+        HOWTO write a research report in latex
+    </div>
+    </div>
+    <div style="width:960; margin:auto;">
+        <div style="width:310px; height:auto; float:left; margin-right:5px">
+            <div style="float:right;padding-right:40px;padding-top:60px; "></div>
+        </div>
+        <div style="padding-top:50px" class="text">
+            <p>The <em>easiest</em> way to write a clean and neat research
+            report is to use the <a
+                href="http://en.wikipedia.org/wiki/LaTeX">[latex]</a> typesetting
+            system.  This is a <em> document markup language </em>, meaning
+            that you will write in your document some commands that will be
+            lately interpreted by a specific program. At the end what you get
+            is a pdf file. For example, suppose  you wrote the report in a
+            file called "myreport.tex" 
+            you will get the corresponding pdf (that is what you will give me),
+            by running in the terminal the following command: <p><code> pdflatex
+                myreport.tex > myreport.pdf </code></p> <p> In scientific
+            writing, the use of latex gives several advantages, including:
+            automatic formatting, automatic section and figure numbering and
+            clean equation insertion.</p>
+
+            <p>To start to write your first document in latex, open an empty
+            file into your text editor of choice (e.g. gedit). First you need a
+            <em>preamble</em>.  This is a set of commands that will be
+            interpreted by the latex program at the compiling stage (i.e. pdflatex ...).  
+            In the preamble,
+            some variables are defined as well as the use of some
+            special packages.  To write a report use the following:</p>
+
+            <p><code>
+                \documentclass[a4paper,11pt]{article}
+                \usepackage{graphicx}
+            </code></p>
+
+            <p>The  text of the report starts after the following command:</p>
+
+            <p><code>
+                \begin{document}
+            </code></p>
+
+            <p> First put the title, name, group and date of the project:<p>
+
+            <p><code>
+            \title{\sf Allosteric control in Hemoglobin}<br>
+            \author{GR0: F. Rao, D. Prada-Gracia}<br>
+            \date{\today}<br>
+            \maketitle<br>
+            </code></p>
+
+            <p>Each new section starts with <code>\section</code> command, for example:</p>
+
+            <p><code>
+                \section{introduction}
+            </code></p>
+
+            <p>a figure is introduced with:</p>
+
+            <p><code>
+                \begin{figure}<br>
+                \centering<br>
+                \includegraphics[width=80mm]{myfig}<br>
+                \caption{Put here a description of the figure}<br>
+                \label{mydata}<br>
+                \end{figure}<br>
+            </code></p>
+
+            <p> the label command is useful when recalling a figure within the text using,
+            for example
+            <code> \ref{mydata} </code>. When using <code>pdflatex</code> (like here), the file "myfig" can be either a pdf, jpg or png image.
+            The document is finished by:
+
+            <p><code>
+                \end{document}
+            </code></p>
+
+            <p> Below you can download an example latex file and the corresponding
+            compiled pdf (the figure is not included).<br>
+	
+            <div style="font-size:40px; padding-left: 15px; color:blue">
+                <a href="myreport.tex">[latex]</a> 
+                <a href="myreport.pdf">[pdf]</a>
+            </div>
+            <br>
+            <br>
+
+    </div>
+</div>
+</body>
